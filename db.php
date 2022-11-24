@@ -12,4 +12,8 @@
     $db_user = "b85f87976e7070";
     $db_pass = "beb30064";
     $db_name = "heroku_cdf4ba87cc66d9c";
+    $con = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
+    if(mysqli_connect_errno()){
+        echo "Failed to connect to MySQL: " . mysqli_connect_error();
+    }
 ?>
