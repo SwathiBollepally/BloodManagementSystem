@@ -125,3 +125,10 @@ h1.form-title {
     clear: both;
     display: table;
   }
+
+  .posts {
+    margin: 50px auto;
+    width: 500px;
+    padding: 20px 25px;
+    background: white;
+}

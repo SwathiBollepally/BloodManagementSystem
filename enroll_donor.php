@@ -4,6 +4,19 @@
     <meta charset="utf-8"/>
     <title>Registration</title>
     <link rel="stylesheet" href="style.css"/>
+<header>
+<div class="container">
+  <nav>
+        <ul>
+            <li><a href="home.php">Home</a>&nbsp;&nbsp;</li>
+            <li><a href="donors.php">Donors</a>&nbsp;&nbsp;</li>
+            <li><a href="posts.php">Post</a>&nbsp;&nbsp;</li>
+            <li><a>Blood Banks</a>&nbsp;&nbsp;</li>
+            <li><a href="logout.php">Logout</a>&nbsp;&nbsp;</li>
+        </ul>
+    </nav>       
+</div>
+</header>
 </head>
 <body>
 <?php
@@ -13,7 +26,6 @@
     if (isset($_POST['submit'])) {
         // removes backslashes
         $username = $_SESSION['username'];
-        echo $username;
         $ageCheck = stripslashes($_REQUEST['ageCheck']);
         //escapes special characters in a string
         $ageCheck = mysqli_real_escape_string($con, $ageCheck);

@@ -11,16 +11,18 @@
     session_start();
     // When form submitted, check and create user session.
     if (isset($_POST['username'])) {
+        echo "Hello";
         $username = stripslashes($_REQUEST['username']);    // removes backslashes
         $username = mysqli_real_escape_string($con, $username);
+        echo $username;
         $_SESSION['username'] =$username;
         $password = stripslashes($_REQUEST['password']);
         $password = mysqli_real_escape_string($con, $password);
         // Check user is exist in the database
         $query    = "SELECT * FROM `users` WHERE username='$username'
                      AND password='$password'";
-        $result = mysqli_query($con, $query) or die(mysql_error());
-        $rows = mysqli_num_rows($result);
+        $result = mysqli_query($con, $query);
+        $rows = mysqli_num_rows($result);   
         echo $rows;
         if ($rows == 1 ) {
             header("Location: home.php");}
