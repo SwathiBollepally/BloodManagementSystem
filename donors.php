@@ -11,9 +11,9 @@
         <ul>
             <li><a href="enroll_donor.php">Enroll As a Donor</a>&nbsp;&nbsp;</li>
             <li><a href="posts.php">Post</a>&nbsp;&nbsp;</li>
-            <li><a>Blood Banks</a>&nbsp;&nbsp;</li>
+            <li><a href="blood_banks.php">Blood Banks</a>&nbsp;&nbsp;</li>
             <l1><a href="profile.php">Profile</a>&nbsp;&nbsp;</li>
-            <li><a>Logout</a>&nbsp;&nbsp;</li>
+            <li><a href="logout.php">Logout</a>&nbsp;&nbsp;</li>
         </ul>
     </nav>       
 </div>

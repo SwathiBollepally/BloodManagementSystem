@@ -8,11 +8,11 @@
   <div class="container">
     <nav>
         <ul>
+            <li><a href="home.php">Home</a>&nbsp;&nbsp;</li>
             <li><a href="enroll_donor.php">Enroll As a Donor</a>&nbsp;&nbsp;</li>
             <li><a href="donors.php">Donors</a>&nbsp;&nbsp;</li>
             <li><a href="posts.php">Posts</a>&nbsp;&nbsp;</li>
-            <li><a>Recent Posts</a>&nbsp;&nbsp;</li>
-            <li><a>Blood Banks</a>&nbsp;&nbsp;</li>
+            <li><a href="blood_banks.php">Blood Banks</a>&nbsp;&nbsp;</li>
             <li><a href="logout.php">Logout</a>&nbsp;&nbsp;</li>
         </ul>
     </nav>

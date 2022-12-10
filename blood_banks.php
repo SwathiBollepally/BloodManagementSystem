@@ -12,7 +12,7 @@
             <li><a href="donors.php">Donors</a>&nbsp;&nbsp;</li>
             <li><a href="posts.php">Posts</a>&nbsp;&nbsp;</li>
             <li><a href="blood_banks.php">Blood Banks</a>&nbsp;&nbsp;</li>
-            <li><a href="profiles.php">Profile</a>&nbsp;&nbsp;</li>
+            <li><a href="profile.php">Profile</a>&nbsp;&nbsp;</li>
             <li><a href="logout.php">Logout</a>&nbsp;&nbsp;</li>
         </ul>
     </nav>
